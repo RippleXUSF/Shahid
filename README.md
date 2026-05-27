@@ -212,7 +212,17 @@ ngrok http --domain=your-domain.ngrok-free.dev 3000
 
 ---
 
-## On-chain Verification
+## Limitations & Roadmap
+
+**1. Network transit via ngrok**
+
+The platform is currently exposed through ngrok for demonstration purposes. As a reverse proxy, ngrok handles data in transit before it reaches the local database — making it an unsuitable intermediary for a production deployment. End-to-end encryption is planned, so that submissions are encrypted on the submitter's device and can only be decrypted by the operator, rendering the transit layer unable to read any content.
+
+**2. Single point of failure**
+
+The database and uploaded files reside on a single local machine. Hardware failure, loss, or seizure would permanently destroy all unanchored records. Distributed storage — whether through encrypted replication across trusted nodes or a decentralised protocol such as IPFS — is planned to eliminate this vulnerability.
+
+---
 
 Each batch commit produces an XRPL transaction visible at:
 
