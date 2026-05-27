@@ -16,13 +16,7 @@ Moreover, the World Wide Web was fundamentally designed for real-time communicat
 
 ### 1. Evidence Submission
 
-Any member of the public can submit an incident record through the submission form. Each submission includes:
-
-- **Incident information** — date, location, incident type, and alleged perpetrator
-- **Detailed account** — a full written testimony of the incident (sensitive layer)
-- **Public summary** — a one-to-two sentence description suitable for public display
-- **Media files** — photographs, video, audio, or documents as supporting evidence
-- **Source information** (optional) — contact details and relationship to the incident, kept strictly internal
+Any member of the public can submit an incident record through the submission form. 
 
 Upon submission, the platform immediately generates a `raw_submission_hash` — a SHA-256 digest of the entire submission including all field values and file hashes. This locks in the original state of the record at the moment of receipt, before any review or editing. A unique case identifier in the format `EVD-YYYY-XXXXXXXX` is returned to the submitter for future reference.
 
