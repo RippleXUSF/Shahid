@@ -4,6 +4,12 @@ Shahed is an evidence preservation platform designed to protect and archive reco
 
 ---
 
+## Introduction Video
+
+https://www.youtube.com/watch?v=rl9jqVRJkuw
+
+---
+
 ## Why This Project, and Why Blockchain
 
 Data regarding political violence is currently stored overwhelmingly on commercial social media platforms. While these platforms facilitate the dissemination of such information, they are not ideal carriers for its long-term preservation. Commercial platforms are prone to the agendas of their owners, as illustrated by cases such as Elon Musk's acquisition of Twitter.
